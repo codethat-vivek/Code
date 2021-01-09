@@ -1,2 +1,2 @@
 # Code
-Coding problems and their solutions 
+Coding problems that I come across and their solutions.
