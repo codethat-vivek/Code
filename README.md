@@ -8,6 +8,6 @@ Codechef practice problem solutions
 10-01-2021 - GeeksForGeeks Problem
 11-01-2021 - GeeksForGeeks Problem
 12-01-2021 - GeeksForGeeks Problem
-13-01-2021 - InterviewBit Problem
+13-01-2021 - GeeksForGeeks Problem + InterviewBit Problem 
 14-01-2021 - GeeksForGeeks Problem
 15-01-2021 - GeeksForGeeks Problem
