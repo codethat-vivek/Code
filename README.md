@@ -13,3 +13,5 @@ Codechef practice problem solutions
 15-01-2021 - GeeksForGeeks Problem
 16-01-2021 - GeeksForGeeks Problem
 17-01-2021 - GeeksForGeeks Problem
+18-01-2021 - HackerRank Problem Solving
+19-01-2021 - HackerRank Problem Solving
