@@ -1,6 +1,6 @@
 // Question Link - https://leetcode.com/problems/climbing-stairs/
 
-// Solution Link - https://leetcode.com/submissions/detail/445180535/
+// Solution Details - https://leetcode.com/submissions/detail/445180535/
 
 // SOLUTION - 
 
