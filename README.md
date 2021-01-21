@@ -17,3 +17,4 @@ Codechef practice problem solutions
 19-01-2021 - HackerRank Problem Solving
 20-01-2021 - HackerRank Interview Preparation Kit
 21-01-2021 - GeeksForGeeks Problem
+22-01-2021 - GeeksForGeeks Problem
