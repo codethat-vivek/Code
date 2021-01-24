@@ -1,6 +1,6 @@
 // Question Link - https://leetcode.com/problems/add-two-numbers/
 
-// Solution Link - https://leetcode.com/submissions/detail/446883872/
+// Solution Details - https://leetcode.com/submissions/detail/446883872/
 
 // SOLUTION - 
 
