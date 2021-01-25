@@ -1,5 +1,5 @@
 /*
-  Question - 
+  Question - Prime Factor And Their Powers
   Given a number N, print all its unique prime factors and their powers in N.
   
   Example : 
