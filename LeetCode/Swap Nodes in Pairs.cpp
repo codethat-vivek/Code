@@ -14,6 +14,8 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+// ----------------------------------------------------------- APPROACH - 1 (By Swapping values of nodes) --------------------------------------------------------------
 class Solution {
 public:
     void swap(int *a, int *b){
@@ -42,3 +44,28 @@ public:
         return dummy -> next;
     }
 };
+
+//------------------------------------------------------------ APPROACH - 2 (By Swapping the nodes itself) --------------------------------------------------------------
+
+class Solution {
+public:
+    ListNode* swapPairs(ListNode* head) {
+        ListNode *dummy = new ListNode(0);
+        dummy -> next = head;
+        ListNode *current = dummy;
+        while(current -> next != NULL && current -> next -> next != NULL){
+            ListNode *first_node = current -> next;
+            ListNode *second_node = current -> next -> next;
+            
+            first_node -> next = second_node -> next;
+            current -> next = second_node;
+            second_node -> next = first_node;
+            current = current -> next -> next;
+            
+        }
+        return dummy -> next;
+    }
+};
+
+
+
