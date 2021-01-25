@@ -21,3 +21,4 @@ Codechef practice problem solutions
 23-01-2021 - HackerEarth CodeArena Problem
 24-01-2021 - HackerRank Mathematics Problem
 25-01-2021 - GeeksForGeeks Problem
+26-01-2021 - GeeksForGeeks Problem
