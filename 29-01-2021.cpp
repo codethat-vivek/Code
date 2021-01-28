@@ -17,7 +17,6 @@ Question - Print Anagrams Together
 
 // SOLUTION - 
 
-//Initial Template for C++
 #include <bits/stdc++.h>
 #include <unordered_map>
 using namespace std;
