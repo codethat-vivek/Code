@@ -27,4 +27,5 @@ Coding problems that I come across with their solutions.
     26-01-2021 - GeeksForGeeks Problem
     28-01-2021 - GeeksForGeeks Problem
     29-01-2021 - Amazon Interview Question and GeeksforGeeks Problem
-    30-01-2021 - Interview Question and GeeksforGeeks (Must Do Coding Question)
+    30-01-2021 - Interview Question and GeeksforGeeks (Must Do Coding Question) >>>> Count the Triplet
+    31-01-2021 - Interview Question and GeeksforGeeks (Must Do Coding Question) >>>> Maximum Sub-array Sum(Kadane's Algorithm)
