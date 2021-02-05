@@ -30,3 +30,6 @@ Coding problems that I come across with their solutions.
     30-01-2021 - Interview Question and GeeksforGeeks (Must Do Coding Question) >>>> Sub-array with given sum
     31-01-2021 - Interview Question and GeeksforGeeks (Must Do Coding Question) >>>> Count the Triplet
     01-02-2021 - Interview Question and GeeksforGeeks (Must Do Coding Question) >>>> Maximum Subarray Sum Problem
+    02-02-2021 - HackerRank Python Problem >>>> Merge The Tools!
+    03-02-2021 - HackerRank Python Problem >>>> The Minion Game
+    
