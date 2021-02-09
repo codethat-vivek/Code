@@ -1,0 +1,45 @@
+/*
+Question - Jospehus Problem
+Given the total number of persons n and a number k which indicates that k-1 persons are skipped and kth person is killed in circle in a fixed direction.
+
+The task is to choose the safe place in the circle so that when you perform these operations starting from 1st place in the circle, 
+you are the last one remaining and survive.
+
+Input:
+n = 3 k = 2
+Output: 3
+Explanation: There are 3 persons so 
+skipping 1 person i.e 1st person 2nd 
+person will be killed. Thus the safe 
+position is 3.
+
+*/
+
+// SOLUTION - 
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int josephus(int n, int k);
+
+int main() {
+	
+	int t;
+	cin>>t;
+	while(t--)
+	{
+		int n,k;
+		cin >> n >> k;
+		cout << josephus(n,k) << endl;
+	}
+	return 0;
+}
+
+int josephus(int n, int k)
+{
+    if (n == 1)
+        return 1;
+    
+    return (josephus(n-1, k) + k-1) % n + 1;
+    
+}
