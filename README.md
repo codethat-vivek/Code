@@ -34,3 +34,4 @@ Coding problems that I come across with their solutions.
     03-02-2021 - HackerRank Python Problem >>>> The Minion Game
     04-02-2021 - GeeksForGeeks >>>> Rearrange Array Alternatively
     05-02-2021 - Interview Question and GeeksforGeeks (Must Do Coding Question) >>>> Josephus Problem
+    06-02-2021 - GeeksforGeeks Problem >>>> Product of Primes
