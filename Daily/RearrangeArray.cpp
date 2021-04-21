@@ -1,5 +1,5 @@
 /*
-Question - Rearrange ARray Alternatively
+Question - Rearrange Array Alternatively
 Given a sorted array of positive integers. Your task is to rearrange  the array elements alternatively 
 i.e first element should be max value, second should be min value, third should be second max, 
 fourth should be second min and so on.
