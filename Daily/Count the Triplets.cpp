@@ -7,7 +7,7 @@
     arr[] = {1, 5, 3, 2}
     Output: 2
     Explanation: There are 2 triplets: 
-    1 + 2 = 3 and 3 +2 = 5 
+    1 + 2 = 3 and 3 + 2 = 5 
 */
 
 // SOLUTION - 
@@ -40,7 +40,7 @@ public:
 int main() 
 {
    	
-   	ios_base::sync_with_stdio(0);
+    ios_base::sync_with_stdio(0);
     cin.tie(NULL);
     cout.tie(NULL);
    
