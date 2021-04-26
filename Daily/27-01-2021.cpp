@@ -3,9 +3,11 @@ Question - Least Prime Factor
 You dont need to read input or print anything. Complete the function leastPrimeFactor() which takes N as input parameter and 
 returns a list of integers containing all the least prime factor of each numbers from 1 to N.
 
-Expected Time Complexity: O(NlogN)
-Expected Auxiliary Space: O(N)
-Constraints: 2<= n <=10^3
+Constraints:
+  Expected Time Complexity: O(NlogN)
+  Expected Auxiliary Space: O(N)
+  2<= n <=10^3
+  
 For Example: 
 Input: N = 6
 Output: [1, 2, 3, 2, 5, 2] 
