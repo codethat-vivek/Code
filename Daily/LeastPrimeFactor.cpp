@@ -47,7 +47,7 @@ class Solution {
                 v.push_back(2);
             else if(i%2 != 0){
                 for(int j=3; j<=i; j+=2){
-                    if(i%j == 0 && isPrime(j)){
+                    if(i%j == 0 && isPrime(j)){ //j should be a divisor of i and it should be prime as well
                         v.push_back(j);
                         break;
                     }
