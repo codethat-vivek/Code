@@ -3,7 +3,7 @@ Question - Subarray with given sum
 Given an unsorted array A of size N that contains only non-negative integers, find a continuous sub-array which adds to a given number S.
 
 Your Task:
-You don't need to read input or print anything. The task is to complete the function subarraySum() which takes arr, N and S as input parameters and 
+The task is to complete the function subarraySum() which takes arr, N and S as input parameters and 
 returns a list containing the starting and ending positions of the first such occurring subarray from the left where sum equals to S. 
 The two indexes in the list should be according to 1-based indexing. If no such subarray is found, return -1. 
 
