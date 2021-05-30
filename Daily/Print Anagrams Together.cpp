@@ -26,6 +26,8 @@ vector<vector<string> > Anagrams(vector<string>& string_list) ;
 vector<vector<string> > Anagrams(vector<string>& s) 
 {
     // Your Code Here
+  
+    // sorting would do the trick
     map <string, vector<string> > mp;
     for(int i=0; i<s.size(); i++){
         string x = s[i];
