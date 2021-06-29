@@ -28,6 +28,7 @@ Output:
 using namespace std;
 #define MAX 100
 
+// easy - medium
 
 // Returns sum of perimeter of shapes formed with 1s
 int findPerimeter(int mat[MAX][MAX], int n,int m);
