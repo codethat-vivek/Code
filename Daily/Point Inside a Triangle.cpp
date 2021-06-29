@@ -3,6 +3,7 @@ Question -
   You will be given the coordinates of four points A, B, C and X.
   You have to find whether the Point X lies inside the triangle formed by the points A, B and C or not.
   For Example: 
+    [format of input -> x and y coordinate of a, b, c, x]
     Input:
     0 0 10 0 0 10 2 2
     Output: 
