@@ -13,14 +13,10 @@ public:
             if(mid == 0){
                 if(arr[0] > arr[1])
                     return 0;
-                else
-                    return 1;
             }
             if(mid == n-1){
                 if(arr[mid] > arr[mid-1])
                     return n-1;
-                else
-                    return n-2;
             }
             if(arr[mid-1] < arr[mid] && arr[mid] > arr[mid+1])
                 return mid;
@@ -38,11 +34,11 @@ public:
         int n = nums.size();
         if(n == 1)
             return 0;
-        // if(n == 2){
-        //     if(nums[0] > nums[1])
-        //         return 0;
-        //     return 1;
-        // }
+        if(n == 2){
+            if(nums[0] > nums[1])
+                return 0;
+            return 1;
+        }
             
         return binarySearch(nums, 0, nums.size()-1);
         
