@@ -1,6 +1,5 @@
 /*
-Question - BALANCED PARENTHESES
-
+Question - BALANCED PARENTHESES(very imp in coding interviews)
   A bracket is considered to be any one of the following characters: (, ), {, }, [, or ].
   Two brackets are considered to be a matched pair if the an opening bracket (i.e., (, [, or {) occurs to the left of a closing bracket (i.e., ), ], or }) of the 
   exact same type. There are three types of matched pairs of brackets: [], {}, and ().
