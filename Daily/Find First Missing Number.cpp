@@ -24,7 +24,7 @@ int main(){
       // you can clearly see there is no use of -99 in the whole process other than what has been already described above.
     int n = sizeof(arr)/sizeof(arr[0]);
     for(int i=1; i<n; i++){
-        if(arr[i] > n)
+        if(abs(arr[i]) >= n)
             continue;
         arr[abs(arr[i])] = -abs(arr[abs(arr[i])]);
     }
