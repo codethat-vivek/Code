@@ -28,8 +28,7 @@ void sum(vector<pair<int,int>>v)
         sum += v[i].second;
     }
     
-    cout<<sum;
-    cout<<endl;
+    cout<<sum<<"\n";
 }
 
 int main() {
