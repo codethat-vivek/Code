@@ -8,7 +8,6 @@ public:
         vector<int>ans;
         int i=0, j=0;
         int n = nums.size();
-        int mx = -10002;
         deque<int>q;
         while(j < n){
             while (q.size() > 0 && q.back() < nums[j]) {
