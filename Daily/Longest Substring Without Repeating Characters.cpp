@@ -27,7 +27,7 @@ class Solution{
             if(mySet.find(S[rightPointer]) == mySet.end()){ // Not found condition
                 mySet.insert(S[rightPointer]);
                 rightPointer ++;
-                // Need to know why this line is not getting compiled 
+                // Below line produces error because we need to cast mySet.size() to int, for ex -> ans = max((int)mySet.size(), ans)
                 // ans = max(mySet.size(), ans);
                 if (mySet.size() >= ans)
                     ans = mySet.size();
