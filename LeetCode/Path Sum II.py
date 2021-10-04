@@ -21,7 +21,7 @@ class Solution:
             for each in right_p:
                 each.append(root.val)
                 ans.append(each)
-        # both left and right parts are return false, i.e. there is no valid answer
+        # both left and right parts return false, i.e. there is no valid answer
         if not left_tf and not right_tf:
             return [False, []]
         return [True, ans]
