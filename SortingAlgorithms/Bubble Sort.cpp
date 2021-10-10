@@ -17,7 +17,7 @@ using namespace std;
 #define ll long long
 
 vector<ll> bubbleSort(ll n, vector<ll>arr){
-    bool swapped = false;
+    bool swapped;
     for (ll i = 0; i < n-1; i++){
         swapped = false;
         for (ll j = 0; j < n-i-1; j++){ 
