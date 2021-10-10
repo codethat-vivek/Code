@@ -17,11 +17,16 @@ using namespace std;
 #define ll long long
 
 vector<ll> bubbleSort(ll n, vector<ll>arr){
-    for (ll i = 0; i < n-1; i++){     
+    bool swapped = false;
+    for (ll i = 0; i < n-1; i++){
+        swapped = false;
         for (ll j = 0; j < n-i-1; j++){ 
-            if (arr[j] > arr[j+1]) 
+            if (arr[j] > arr[j+1]){ 
                 swap(arr[j], arr[j+1]);
+                swapped = true;
+            }
         }
+        if(!swapped) break; // if there were no swapping then it implies that the array has already been sorted and we can came out of the loop
     }
     return arr;
 }
