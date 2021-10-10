@@ -17,10 +17,10 @@ using namespace std;
 #define ll long long
 
 vector<ll> selectionSort(ll n, vector<ll>arr){
-    int mn, idx;
-    for(int i=0; i<n-1; i++){
+    ll mn, idx;
+    for(ll i=0; i<n-1; i++){
         idx = i;
-        for(int j=i+1; j<n; j++){
+        for(ll j=i+1; j<n; j++){
             if(arr[idx] > arr[j])
                 idx = j;
             
