@@ -61,3 +61,33 @@ public:
         return x;
     }
 };
+
+/*
+ANOTHER POSSIBLE SOLUTION (BINARY SEARCH IN ONE GO)
+class Solution {
+public:
+    int modifiedBinarySearch(vector<int>nums, int start, int end, int target){
+        if(start > end) return -1;
+        int mid = start + (end - start)/2;
+        //cout << mid << endl;
+        if(nums[mid] == target)
+            return mid;
+        else if(nums[mid] >= nums[start]) // left part is sorted 
+        {
+            if(nums[start] <= target && target <= nums[mid])
+                return modifiedBinarySearch(nums, start, mid-1, target);
+            return modifiedBinarySearch(nums, mid+1, end, target);
+        }
+        else // right part is sorted
+        {
+            if(nums[mid] <= target && target <= nums[end])
+                return modifiedBinarySearch(nums, mid+1, end, target);
+            return modifiedBinarySearch(nums, start, mid-1, target);
+        }
+    }
+    int search(vector<int>& nums, int target) {
+        return modifiedBinarySearch(nums, 0, nums.size()-1, target);
+    }
+};
+
+*/
