@@ -1,3 +1,12 @@
+'''
+Best Time Complexity - O(n*log n)
+Worst Time Complexity - O(n*log n)
+Space Complexity - O(n)
+Stable - Yes
+Online - No
+'''
+
+
 def mergeSort(a):
     if len(a) > 1:
         n = len(a)
@@ -26,34 +35,8 @@ def mergeSort(a):
 
 
 a = [4, 2, 5, 8, 7, 1, 10, 9, 6, 3]
-#print(merge([2, 3], [1, 4]))
-#a = [2, 3, 1, 4]
 mergeSort(a)
 print(a)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
