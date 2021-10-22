@@ -8,8 +8,6 @@ class Solution:
             return [[]]
         if k == n-i:
             return [nums[i:]]
-        if k > n-i:
-            return [[]]
         
         f = self.helper(nums, i+1, n, k)
         s = self.helper(nums, i+1, n, k-1)
