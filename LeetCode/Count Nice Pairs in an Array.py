@@ -12,7 +12,6 @@ class Solution:
         for i in nums:
             rev = int(str(i)[::-1])
             diff.append(i-rev)
-        #print(diff)
         count = Counter(diff)
         ans = 0
         for each in count:
