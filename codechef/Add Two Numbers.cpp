@@ -1,7 +1,5 @@
 // Question Link - https://www.codechef.com/problems/FLOW001
 
-// Solution Link - https://www.codechef.com/viewsolution/31759111
-
 // SOLUTION -
 
 #include <bits/stdc++.h> 
