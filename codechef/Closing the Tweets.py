@@ -1,7 +1,5 @@
 # Question Link - https://www.codechef.com/problems/TWTCLOSE
 
-# Solution Link - https://www.codechef.com/viewsolution/36746848
-
 # SOLUTION - 
 
 # cook your dish here
