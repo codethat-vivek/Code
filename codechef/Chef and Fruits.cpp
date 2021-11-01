@@ -1,7 +1,5 @@
 // Question Link - https://www.codechef.com/problems/FRUITS
 
-// Solution Link - https://www.codechef.com/viewsolution/36746407
-
 // SOLUTION - 
 
 #include <iostream>
