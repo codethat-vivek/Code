@@ -1,7 +1,5 @@
 // Question Link - https://www.codechef.com/problems/AREAPERI
 
-// Solution Link - https://www.codechef.com/viewsolution/36889830
-
 // SOLUTION - 
 
 #include <iostream>
