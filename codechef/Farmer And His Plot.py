@@ -1,7 +1,5 @@
 # Question Link - https://www.codechef.com/problems/RECTSQ
 
-# Solutoin Link - https://www.codechef.com/viewsolution/36890090
-
 # Solution - 
 
 # cook your dish here
