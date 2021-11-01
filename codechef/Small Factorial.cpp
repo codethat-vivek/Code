@@ -1,7 +1,5 @@
 // Question Link - https://www.codechef.com/problems/FLOW018
 
-// Solution Link - https://www.codechef.com/viewsolution/36453429
-
 // SOLUTION -
 
 #include <iostream>
