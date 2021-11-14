@@ -1,7 +1,5 @@
 // Question Link - https://www.codechef.com/problems/MUFFINS3
 
-// Solution Link - https://www.codechef.com/viewsolution/36452974
-
 // SOLUTION -
 
 #include <iostream>
