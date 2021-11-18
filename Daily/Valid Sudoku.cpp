@@ -24,6 +24,7 @@ Output:
 using namespace std;
 
 int ansFunction(int arr[9][9]){
+  // hashmap solution
   unordered_set<string> mySet;
 	for(int i=0; i<9; i++){
 	   for(int j=0; j<9; j++){
