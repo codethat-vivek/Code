@@ -29,7 +29,7 @@ class Solution:
             ans = str(d-b) + "x" + req + "y" + "=" + str(a*d-a*b-b*c+b*a)
             return ans
         else:
-            return "y = a"
+            return "y = " + str(a)
 
 
 if __name__ == '__main__':
