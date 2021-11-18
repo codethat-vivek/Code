@@ -44,7 +44,7 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
    
-   	int t;
+    int t;
     cin >> t;
     while (t--)
     {
