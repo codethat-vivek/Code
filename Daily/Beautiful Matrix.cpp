@@ -10,12 +10,12 @@ matrix[][] = {{1, 2},
               {3, 4}}
 Output: 4
 Explanation:
-Updated matrix:
-4 3
-3 4
-1. Increment value of cell(0, 0) by 3
-2. Increment value of cell(0, 1) by 1
-Hence total 4 operation are required.
+  Updated matrix:
+  4 3
+  3 4
+  1. Increment value of cell(0, 0) by 3
+  2. Increment value of cell(0, 1) by 1
+  Hence total 4 operation are required.
 
 Example 2 -
 Input:
@@ -25,14 +25,14 @@ matrix[][] = {{1, 2, 3},
               {3, 2, 1}}
 Output: 6
 Explanation:
-Original matrix is as follows:
-1 2 3
-4 2 3
-3 2 1
-We need to make increment in such a way 
-that each row and column has one time 2, 
-one time 3 , one time 4. For that we 
-need 6 operations.
+  Original matrix is as follows:
+  1 2 3
+  4 2 3
+  3 2 1
+  We need to make increment in such a way 
+  that each row and column has one time 2, 
+  one time 3 , one time 4. For that we 
+  need 6 operations.
 */
 
 // SOLUTION -
