@@ -5,24 +5,24 @@ Question -
   If A starts first, how many matchsticks should he pick such that he is guaranteed to win the game or determine if it's impossible for him to win.
 Note : Consider both A and B play the game optimally
 
-Input:
-N = 48
-Output:
-3
-Explanation:
-Player A is guaranteed a win if he
-picks 3 matchsticks first.
+  Input:
+  N = 48
+  Output:
+  3
+  Explanation:
+  Player A is guaranteed a win if he
+  picks 3 matchsticks first.
 
-Input:
-N = 15
-Output:
--1
-Explanation:
-Player A is guaranteed a loss no matter
-how many matches he picks at first.
+  Input:
+  N = 15
+  Output:
+  -1
+  Explanation:
+  Player A is guaranteed a loss no matter
+  how many matches he picks at first.
 
-Expected Time Complexity: O(1)
-Expected Auxiliary Space: O(1)
+  Expected Time Complexity: O(1)
+  Expected Auxiliary Space: O(1)
 */
 
 // SOLUTION -
@@ -33,7 +33,7 @@ using namespace std;
 class Solution {
   public:
     int matchGame(long long N) {
-        // code here
+        // write your code here
         if(N%5 >= 1 && N%5 <= 4)
             return N%5;
         return -1;
