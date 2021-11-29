@@ -1,24 +1,25 @@
 /*
-Given a matrix mat[][] of n rows and m columns, consisting of 0’s and 1’s. The task is to complete the function findPerimeter which returns 
-an integer denoting the perimeter of sub-figures consisting of only 1’s in the matrix.
+Question - 
+	Given a matrix mat[][] of n rows and m columns, consisting of 0’s and 1’s. The task is to complete the function findPerimeter which returns 
+	an integer denoting the perimeter of sub-figures consisting of only 1’s in the matrix.
 
-For example
-Perimeter of single 1 is 4 as it can be covered from all 4 side. Perimeter of double 11 is 6.
+	For example
+	Perimeter of single 1 is 4 as it can be covered from all 4 side. Perimeter of double 11 is 6.
 
-Constraints:
-1<=T<=100
-1<=n, m<=20
+	Constraints:
+	1<=T<=100
+	1<=n, m<=20
 
-Input:
-2
-1 2
-1 1 
-3 3
-1 0 0 1 0 0 1 0 0
+	Input:
+	2
+	1 2
+	1 1 
+	3 3
+	1 0 0 1 0 0 1 0 0
 
-Output:
-6
-8
+	Output:
+	6
+	8
 
 */
 
