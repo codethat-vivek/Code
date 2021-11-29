@@ -22,12 +22,11 @@ int main(){
         cin >> arr[i];
     
     vector<int>ans;
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n; i++)
         ans.push_back(arr[(i+k)%n]);
-    }
     
-    for(int i=0; i<ans.size(); i++){
+    for(int i=0; i<ans.size(); i++)
         cout << ans[i] << " ";
-    }
+    
     return 0;   
 }
