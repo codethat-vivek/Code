@@ -1,8 +1,7 @@
 '''
 Given a string S, the task is to create a string with the first letter of every word in the string.
-Input: 
-S = "bad is good"
-Output: big
+    Input: S = "bad is good"
+    Output: big
 '''
 #SOLUTION -
 
@@ -20,5 +19,4 @@ if __name__ == '__main__':
         S = input()
         ob = Solution()
         answer = ob.firstAlphabet(S)
-        
         print(answer)
