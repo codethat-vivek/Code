@@ -1,6 +1,6 @@
-// Question Link - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+# Question Link - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 
-// Solution -
+# Solution -
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
