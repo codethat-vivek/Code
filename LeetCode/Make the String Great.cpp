@@ -5,14 +5,21 @@
 class Solution {
 public:
     string makeGood(string s) {
-        for(int i=0; i<s.length(); i++){
-            if(abs(s[i] - s[i+1]) == 32){
-                s = s.substr(0,i) + s.substr(i+2);
-                i-=2;
-            }
-            if(i < 0)
-                i = -1;
+        stack<char>st;
+        for(char c : s){
+            if(st.empty() || abs(st.top() - c) != 32)
+                st.push(c);
+            else
+                st.pop();
+
         }
-        return s;
+        string ans = "";
+        while(!st.empty())
+        {
+            ans += st.top();
+            st.pop();
+        }
+        reverse(ans.begin(), ans.end());
+        return ans;
     }
 };
