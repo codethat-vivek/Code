@@ -1,4 +1,4 @@
-// Question Link - https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+// Question Link - https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 // Solution Details - https://leetcode.com/submissions/detail/446838592/
 
