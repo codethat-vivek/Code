@@ -5,7 +5,7 @@
 class Solution {
 public:
     bool isSubsequence(string str, string sub){
-        // return true if str is subsequence of sub
+        // return true if sub is subsequence of str
         int m=str.length(), n=sub.length();
         int i=0, j=0;
         while(i < m && j < n){
