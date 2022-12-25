@@ -7,13 +7,10 @@ class Solution:
         pos, neg = collections.Counter(positive_feedback), collections.Counter(negative_feedback)
         dt = collections.defaultdict(int)
         for idx, each in enumerate(report):
-            p, n = False, False
             for word in each.split(' '):
                 if word in pos:
-                    p = True
                     dt[student_id[idx]] += 3
                 elif word in neg:
-                    n = True
                     dt[student_id[idx]] -= 1
         
         x = sorted(dt.items(), key = lambda x : (-x[1], x[0]))[:k]
