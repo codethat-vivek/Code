@@ -12,8 +12,23 @@ class Solution:
             x, y = getPos(A), getPos(B)
             return abs(x[0] - y[0]) + abs(x[1] - y[1])
 
+        # 300*26 = 7800 ---- OPTIMIZED
+        # i - index of last character typed with one of my hands
+        # other - last character typed by my other hand
+        # we are considering word[i+1]
+        @cache
+        def optRecur(i, other):
+            if i == n-1: return 0
+            onehand = getDist(word[i], word[i+1]) + optRecur(i+1, other)
+            if other == '': other = word[i+1]
+            secondhand = getDist(other, word[i+1]) + optRecur(i+1, word[i])
+
+            return min(onehand, secondhand)
+
+        return min(optRecur(1, word[0]), getDist(word[0], word[1]) + optRecur(1, ''))
         
         #300*26*26 = 202800
+        '''
         @cache
         def recur(i, leftlast, rightlast):
             if i == n:
@@ -36,3 +51,4 @@ class Solution:
         r2 = recur(2, word[1], '') + getDist(word[0], word[1])
 
         return min(r1, r2)
+        '''
